@@ -362,6 +362,7 @@
 "Assets/Scripts/NewBehaviourScript.cs"
 "Assets/Scripts/SceneChan.cs"
 "Assets/Scripts/SpriteState.cs"
+"Assets/Scripts/Tutorial.cs"
 "Assets/Scripts/TypewritterEffect.cs"
 -langversion:9.0
 

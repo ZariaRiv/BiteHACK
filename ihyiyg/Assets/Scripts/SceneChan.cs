@@ -28,7 +28,7 @@ public class SceneChan : MonoBehaviour
             PlayerPrefs.SetInt("First", 0); 
             SceneManager.LoadScene("Scenes/Intro");
         }
-        else SceneManager.LoadScene("Scenes/MainScene");
+        else SceneManager.LoadScene("Scenes/MainScene_tutorial");
     }
 
     private void QuitApplication()

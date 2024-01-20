@@ -357,7 +357,9 @@
 "Assets/Scripts/DialogObject.cs"
 "Assets/Scripts/DialogUI.cs"
 "Assets/Scripts/MoveUIImage.cs"
+"Assets/Scripts/NewBehaviourScript.cs"
 "Assets/Scripts/SceneChan.cs"
+"Assets/Scripts/SpriteState.cs"
 "Assets/Scripts/TypewritterEffect.cs"
 -langversion:9.0
 

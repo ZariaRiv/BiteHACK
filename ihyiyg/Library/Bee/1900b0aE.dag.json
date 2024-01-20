@@ -19269,7 +19269,11 @@
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 1449398,
+<<<<<<< HEAD
       "PayloadLength": 32888,
+=======
+      "PayloadLength": 32780,
+>>>>>>> e23d1920ed587d617f6491d87dc83396caee1a6f
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -19281,7 +19285,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1482373,
+=======
+      "PayloadOffset": 1482265,
+>>>>>>> e23d1920ed587d617f6491d87dc83396caee1a6f
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -19529,6 +19537,8 @@
         "Assets/Scripts/ChangeVolumeSlider.cs",
         "Assets/Scripts/DialogObject.cs",
         "Assets/Scripts/DialogUI.cs",
+        "Assets/Scripts/GnomeScript.cs",
+        "Assets/Scripts/level_1/level_1.cs",
         "Assets/Scripts/MoveUIImage.cs",
         "Assets/Scripts/NewBehaviourScript.cs",
         "Assets/Scripts/SceneChan.cs",
@@ -19772,7 +19782,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1482469,
+=======
+      "PayloadOffset": 1482361,
+>>>>>>> e23d1920ed587d617f6491d87dc83396caee1a6f
       "PayloadLength": 9366,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],

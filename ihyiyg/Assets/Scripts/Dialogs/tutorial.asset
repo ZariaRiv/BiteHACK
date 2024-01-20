@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c8aeab40b4eed349830e02517100ccf, type: 3}
+  m_Name: tutorial
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Bazujac na narzedziach trzymnych przez krasnale i rodzaju zniszczen sprobuj wywniosokac
+    ktore z figurek nie sa tak na prawde figurkami
+  - "miedzy drzemkami mozesz zaznaczac ktorego z krasnali podejrzewasz o bycie zlosliwym
+    stworem. Zwracaj uwage na ich pozycje w danej i poprzedniej turze, zniszczenia
+    mog\u0105 zrobic tylko jesli byly obok obiektu przed chwila albo jesli sa tam
+    teraz"
+  - na koniec dnia przezyce krasnale ktore sa tak na prawde wilkami w owczej porcelanowej
+    skorze za plot, niech sasiad ma problem a nie ja

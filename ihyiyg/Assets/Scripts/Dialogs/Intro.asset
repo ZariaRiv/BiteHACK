@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c8aeab40b4eed349830e02517100ccf, type: 3}
+  m_Name: Intro
+  m_EditorClassIdentifier: 
+  dialogue:
+  - "W sobote by\u0142am na targu staroci jak co miesiac. Mozna tam znalezc przerozne
+    fantastyczne rzeczy"
+  - Tym razem natknelam sie na faaantastyczne znalezisko. Pudelko krasnali ogrodowych
+  - ich porcelanowe czapeczki i narysowane farbka oczka sa najslodsze na swiecie.
+    W dodatku byly podejrzanie tanie.. ten pan z czarnej forgonetki musial byc na
+    targu pierwszy raz bo stal na uboczu i byl mocno zestresowany, w dodoku na normalnych
+    stoiskach za takie ozdoby ogrodowe chcieliby zdeydowanie za duzoi
+  - Nie myslac dlugo, kupilam cale pudelko i wrocilam do mojego domu. Ustawilam je
+    w moim malym ogrodku i usiadlam sie zrelaksowac
+  - Niestety, starosc nie radosc, nie umiem usiedziec caly dzien bez drzemek i co
+    chwila przymykaja sie oczy. Po jednej s takich drzemek zorientowalam sie ze w
+    moim ogrodzie dzieje sie cos niedobrego
+  - czesc figurek tylko podszywa sie pod figurki a tak na prawde jest zlosliwymi
+    basniowymi stworzeniami, ktore nieszcza mi ogrod

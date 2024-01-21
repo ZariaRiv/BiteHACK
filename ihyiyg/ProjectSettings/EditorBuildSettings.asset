@@ -17,4 +17,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainScene_tutorial.unity
     guid: 7c87e709f0d2e7647a54e387611ed9a5
+  - enabled: 1
+    path: Assets/Scenes/porazka.unity
+    guid: 957c7511cb095384eba9c335842e1142
+  - enabled: 1
+    path: Assets/Scenes/THEGAME.unity
+    guid: d162ec5da39f840419dbc129a1c6ae60
+  - enabled: 1
+    path: Assets/Scenes/sukces.unity
+    guid: d5b96a99a788c6b4997df2105b7e9d82
+  - enabled: 1
+    path: Assets/Scenes/Achievement.unity
+    guid: d7d1f989a90869c48bfce9f55c668784
   m_configObjects: {}

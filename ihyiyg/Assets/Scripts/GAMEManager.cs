@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GAMEManager : MonoBehaviour
 {
@@ -55,10 +56,12 @@ public class GAMEManager : MonoBehaviour
         if (wolfFound)
         {
             Debug.Log("Wilk znaleziony");
+            SceneManager.LoadScene("Scenes/sukces");
         }
         else
         {
             Debug.Log("Wilk nie znaleziony");
+            SceneManager.LoadScene("Scenes/porazka");
         }
 
         // Resume the game

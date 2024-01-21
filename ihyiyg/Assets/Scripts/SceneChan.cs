@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class SceneChan : MonoBehaviour
 {
+    
     public bool firstTime = true;
-
     private void Awake() {
-        firstTime = intToBool(PlayerPrefs.GetInt("First"));
+        //firstTime = intToBool(PlayerPrefs.GetInt("First"));
     }
 
     public void StartGame()
@@ -25,16 +26,18 @@ public class SceneChan : MonoBehaviour
     {
         if (firstTime){
             Debug.Log(":O");
-            PlayerPrefs.SetInt("First", 0); 
+            
+
             SceneManager.LoadScene("Scenes/Intro");
+            PlayerPrefs.SetInt("First", 0); 
         }
         //else SceneManager.LoadScene("Scenes/MainScene_tutorial");
-        else SceneManager.LoadScene("Scenes/THEGAME");
+        else SceneManager.LoadScene("Scenes/MainScene");
     }
 
    public void LoadNewGame()
     {
-        SceneManager.LoadScene("Scenes/THEGAME");
+        SceneManager.LoadScene("Scenes/MainScene");
     }
 
     private void QuitApplication()

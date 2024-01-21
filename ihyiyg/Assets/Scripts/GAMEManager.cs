@@ -26,7 +26,7 @@ public class GAMEManager : MonoBehaviour
         
 
         // Invoke the CheckWolfStatus function after 5 seconds
-        Invoke("StopGame", 4f);
+        //Invoke("StopGame", 4f);
         
 
     }

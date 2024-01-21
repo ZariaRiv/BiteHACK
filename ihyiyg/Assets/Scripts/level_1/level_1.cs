@@ -8,10 +8,17 @@ public class level_1 : MonoBehaviour
     public GameObject eyelidTop;
     public GameObject eyelidBottom;
     public Canvas buttonCanvas; // Reference to the canvas containing the buttons
+
+    public GameObject confirmButton;
+    public GameObject pauseButton;
+
+    //public bool aaaaaa = false;
     
 
-    private float[] grandmaAwakeTimes = {5.0f, 5.0f, 5.0f, 5.0f, 5.0f, 5.0f};
-    private float[] grandmaSleepTimes = {2.0f, 2.0f, 2.0f, 2.0f, 2.0f, 2.0f};
+    //private float[] grandmaAwakeTimes = {5.0f, 5.0f, 5.0f, 5.0f};
+    private float[] grandmaAwakeTimes = {5.0f, 5.0f};
+    //private float[] grandmaSleepTimes = {2.0f, 2.0f};
+    private float[] grandmaSleepTimes = {2.0f, 2.0f};
 
     private bool grandmaClosesEyesAnimation = false;
     private bool grandmaOpenesEyesAnimation = false;
@@ -38,6 +45,11 @@ public class level_1 : MonoBehaviour
                 if(cycleCounter <= maxNumberOfCycles) {
                     Invoke("grandmaClosesEyes", grandmaAwakeTimes[cycleCounter-1]);
                 } else {
+                        confirmButton.gameObject.SetActive(true);
+                        pauseButton.gameObject.SetActive(false);
+                        //confirmButton.gameObject.SetActive(true);
+                        //buttonPanel.SetActive(true);
+                    Time.timeScale = 0; // Pause the game
                     Debug.Log("SZUKANIE WILKA!"); //Ale podmianka planszy musi być w switch case!!!
                 }
             }
@@ -55,7 +67,8 @@ public class level_1 : MonoBehaviour
         Debug.Log("grandmaClosesEyes - START");
         grandmaClosesEyesAnimation = true;
         //wylaczanie przyciskow
-        //buttonCanvas.enabled = false;
+        buttonCanvas.enabled = false;
+        pauseButton.gameObject.SetActive(true);
         Debug.Log("grandmaClosesEyes - END");
     }
 
@@ -149,7 +162,8 @@ public class level_1 : MonoBehaviour
         grandmaOpenesEyesAnimation = true;
         cycleCounter += 1;
         // Enable the entire canvas with buttons
-        //buttonCanvas.enabled = true;
+        buttonCanvas.enabled = true;
+        pauseButton.gameObject.SetActive(true);
         Debug.Log("grandmaOpenesEyes - END");
     }
 }

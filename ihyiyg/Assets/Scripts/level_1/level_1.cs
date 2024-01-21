@@ -61,8 +61,12 @@ public class level_1 : MonoBehaviour
         switch(cycleCounter) {
             case 1:
                 Debug.Log("111111");
+
+                GameObject plant = GameObject.Find("Plant (1)");
+                plant.GetComponent<PlantsScript>().changePlantSpriteToBroken();
                 break;
             case 2:
+
                 Debug.Log("222222"); // W tym przypadku tutaj powinna być podmianka planszy do szukania wilka
                 break;
             case 3:

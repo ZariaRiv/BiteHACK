@@ -102,9 +102,40 @@ MonoBehaviour:
   girlGnomeWithAxe: {fileID: 21300000, guid: 294d30f5515313f41a177c5361625e79, type: 3}
   girlGnomeWithPruner: {fileID: 21300000, guid: 904af5d9ae42c4749ba5009b87aaabb0, type: 3}
   girlGnomeWithShovel: {fileID: 21300000, guid: 643c6f65c3f2ac840965ccb9a1035ec1, type: 3}
+  girlGnomeSelected: {fileID: 21300000, guid: 80e23b75e78fc5140a8e314b89bff842, type: 3}
+  girlGnomeWithAxeSelected: {fileID: 21300000, guid: 5448669b30f3edc498d90115e7958f5b, type: 3}
+  girlGnomeWithPrunerSelected: {fileID: 21300000, guid: a9b534a1cbd527248a7cb91e2e247228, type: 3}
+  girlGnomeWithShovelSelected: {fileID: 21300000, guid: b6a607c3980cfc9479fc5c2fd1617f93, type: 3}
   manGnome: {fileID: 21300000, guid: 002734f483087794a8f85c6a3083e1d9, type: 3}
   manGnomeWithAxe: {fileID: 21300000, guid: 25d06e82a9c3d2c4d90453f9ace96209, type: 3}
   manGnomeWithPruner: {fileID: 21300000, guid: e3f29c7e1f662a3428837283158aec57, type: 3}
   manGnomeWithShovel: {fileID: 21300000, guid: 6dec10455c1188c45b2e9b8c453de2d9, type: 3}
-  hotGnome: {fileID: 0}
+  manGnomeSelected: {fileID: 21300000, guid: c84f0efcfc8d77648a5bcfc0b4393b9b, type: 3}
+  manGnomeWithAxeSelected: {fileID: 21300000, guid: f3f578720ca11ba4c9341369be010d74, type: 3}
+  manGnomeWithPrunerSelected: {fileID: 21300000, guid: 578a429e7dd1b7541878bf0db29d2a52, type: 3}
+  manGnomeWithShovelSelected: {fileID: 21300000, guid: 0c63939cef2a8e241be994929be8e9a4, type: 3}
+  bodybuilderGnome: {fileID: 21300000, guid: 31685db3e0ecfca438820f6238b977fa, type: 3}
+  bodybuilderGnomeWithAxe: {fileID: 21300000, guid: 12b99dad41041b74eac4fd4ed68e3eb2, type: 3}
+  bodybuilderGnomeWithPruner: {fileID: 21300000, guid: 4fbc25dd76352a94f8f32231663ff026, type: 3}
+  bodybuilderGnomeWithShovel: {fileID: 21300000, guid: 4fbdf20729de4f6479bfa63cb3f1fa4e, type: 3}
+  bodybuilderGnomeSelected: {fileID: 21300000, guid: 82c1306c1fc097b44b0884d807f7cb7d, type: 3}
+  bodybuilderGnomeWithAxeSelected: {fileID: 21300000, guid: c9bfa850d09b3c84d84d335fde301c75, type: 3}
+  bodybuilderGnomeWithPrunerSelected: {fileID: 21300000, guid: d889e5eb490ce8947bf735e384ca5ba4, type: 3}
+  bodybuilderGnomeWithShovelSelected: {fileID: 21300000, guid: 53b74b5745026a944a95b0ceef40cbdf, type: 3}
+  beachgoerGnome: {fileID: 21300000, guid: 69595d703ca506d4590be0c546e00f52, type: 3}
+  beachgoerGnomeWithAxe: {fileID: 21300000, guid: cd728086be35d174ea45ba3f61ed2a55, type: 3}
+  beachgoerGnomeWithPruner: {fileID: 21300000, guid: 85b55fb01cc4a2647863036c2b207617, type: 3}
+  beachgoerGnomeWithShovel: {fileID: 21300000, guid: 93e93d80051f19e4a99f0c82dea18d0d, type: 3}
+  beachgoerGnomeSelected: {fileID: 21300000, guid: a1ad6823d78dab54492179bbac40a06d, type: 3}
+  beachgoerGnomeWithAxeSelected: {fileID: 21300000, guid: 69bbb20eea9e58d4cbe7f4092630f012, type: 3}
+  beachgoerGnomeWithPrunerSelected: {fileID: 21300000, guid: 3c8e536c4a523994099aec82efa2fcd2, type: 3}
+  beachgoerGnomeWithShovelSelected: {fileID: 21300000, guid: 0927666fdd75d8045b7b8175df38932c, type: 3}
+  shepherdGnome: {fileID: 21300000, guid: 4ef2c2ae823c70047a6dcc86a874d958, type: 3}
+  shepherdGnomeWithAxe: {fileID: 21300000, guid: dac4c9f6e9baea64585cabe105c47849, type: 3}
+  shepherdGnomeWithPruner: {fileID: 21300000, guid: fe8658786e2d73e4ba6b754b430367e1, type: 3}
+  shepherdGnomeWithShovel: {fileID: 21300000, guid: 79369131d7c9a0b40b920df6a2ae1ea8, type: 3}
+  shepherdGnomeSelected: {fileID: 21300000, guid: 8a9ffceca0ae78d4285312bf3b3c946f, type: 3}
+  shepherdGnomeWithAxeSelected: {fileID: 21300000, guid: 5286ea7a2d77ea9499e70dd75be03141, type: 3}
+  shepherdGnomeWithPrunerSelected: {fileID: 21300000, guid: 3f847f3773f9d3b419a5590c3763c829, type: 3}
+  shepherdGnomeWithShovelSelected: {fileID: 21300000, guid: a2532400797e2a04a9303fd46c3b6f4f, type: 3}
   spriteRenderer: {fileID: 6789160226235604551}

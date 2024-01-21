@@ -361,6 +361,7 @@
 "Assets/Scripts/level_1/level_1.cs"
 "Assets/Scripts/MoveUIImage.cs"
 "Assets/Scripts/PauseMenu.cs"
+"Assets/Scripts/PlantsScript.cs"
 "Assets/Scripts/SceneChan.cs"
 "Assets/Scripts/SpriteChanger.cs"
 "Assets/Scripts/SpriteState.cs"

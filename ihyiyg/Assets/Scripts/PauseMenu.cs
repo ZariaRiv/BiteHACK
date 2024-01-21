@@ -7,12 +7,14 @@ public class PauseMenu : MonoBehaviour
 {
     public GameObject PausePanel;
     public Canvas buttonCanvas; // Reference to the canvas containing the buttons
+    //public Canvas wolfCanvas;
 
     // Start is called before the first frame update
     void Start()
     {
         // Ensure the PausePanel is initially inactive
         PausePanel.SetActive(false);
+        //wolfCanvas.enabled = false;
     }
     public void Pause(){
 
@@ -24,6 +26,7 @@ public class PauseMenu : MonoBehaviour
         {
             // Disable the entire canvas with buttons
             buttonCanvas.enabled = false;
+            
 
             PausePanel.SetActive(true);
             Time.timeScale = 0;

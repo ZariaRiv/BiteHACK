@@ -81,11 +81,16 @@ public class GnomeScript : MonoBehaviour
 
     public SpriteRenderer spriteRenderer;
 
+    public bool wolf = false; // Boolean to indicate if the wolf is found
+    public GameObject button;
+
     // Start is called before the first frame update
     void Start()
     {
         changeGnomeSprite(gnomeType);
         //changeGnomeSprite2();
+        button.GetComponent<SpriteChanger>().associatedGnome = this;
+
     }
 
     // Update is called once per frame
@@ -298,5 +303,10 @@ public class GnomeScript : MonoBehaviour
             default:
                 break;
         }
+    }
+
+    public void ToggleWolfStatus()
+    {
+        wolf = !wolf; // Toggle the wolf status
     }
 }

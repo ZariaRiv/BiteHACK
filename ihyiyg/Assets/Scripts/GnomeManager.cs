@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
         // You can manually assign them in the Unity Editor or find them dynamically
         gnomes = new List<GnomeScript>(FindObjectsOfType<GnomeScript>());
 
-        //Invoke("ChangeAllGnomesSprites", 5f);
+        Invoke("ChangeAllGnomesSprites", 5f);
     }
 
     // Update is called once per frame

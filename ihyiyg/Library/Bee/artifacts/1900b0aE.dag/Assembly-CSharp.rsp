@@ -356,6 +356,7 @@
 "Assets/Scripts/ChangeVolumeSlider.cs"
 "Assets/Scripts/DialogObject.cs"
 "Assets/Scripts/DialogUI.cs"
+"Assets/Scripts/GnomeManager.cs"
 "Assets/Scripts/GnomeScript.cs"
 "Assets/Scripts/level_1/level_1.cs"
 "Assets/Scripts/MoveUIImage.cs"

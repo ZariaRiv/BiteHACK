@@ -7,6 +7,8 @@ public class level_1 : MonoBehaviour
     public float eyelidSpeed = 2.5f;
     public GameObject eyelidTop;
     public GameObject eyelidBottom;
+    public Canvas buttonCanvas; // Reference to the canvas containing the buttons
+    
 
     private float[] grandmaAwakeTimes = {5.0f, 5.0f};
     private float[] grandmaSleepTimes = {3.0f, 3.0f};
@@ -52,6 +54,8 @@ public class level_1 : MonoBehaviour
     void grandmaClosesEyes() {
         Debug.Log("grandmaClosesEyes - START");
         grandmaClosesEyesAnimation = true;
+        //wylaczanie przyciskow
+        //buttonCanvas.enabled = false;
         Debug.Log("grandmaClosesEyes - END");
     }
 
@@ -79,6 +83,8 @@ public class level_1 : MonoBehaviour
 
         grandmaOpenesEyesAnimation = true;
         cycleCounter += 1;
+        // Enable the entire canvas with buttons
+        //buttonCanvas.enabled = true;
         Debug.Log("grandmaOpenesEyes - END");
     }
 }

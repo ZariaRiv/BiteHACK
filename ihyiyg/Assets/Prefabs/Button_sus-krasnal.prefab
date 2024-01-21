@@ -45,8 +45,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonSprites:
+  - {fileID: 21300000, guid: 5629bbf042d296a44af1c3e0d0a3ab12, type: 3}
   - {fileID: 21300000, guid: 5e4b1110d0ea7c54998fe3da775a7ea9, type: 3}
-  - {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 21300000, guid: 8e5eb6047184ee04383d50b76e14ade7, type: 3}
   targetButton: {fileID: 114270972114743838}
 --- !u!1 &7510293199547690236
@@ -116,8 +116,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 5629bbf042d296a44af1c3e0d0a3ab12, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4

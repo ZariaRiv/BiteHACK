@@ -13,6 +13,7 @@ public class Tutorial : MonoBehaviour
     [SerializeField] private TextMeshProUGUI tutorialText;
 
     [SerializeField] private Button pauseButton;
+    [SerializeField] private Button confirmButton;
 
     //private int countTip = 0;
 
@@ -29,10 +30,17 @@ public class Tutorial : MonoBehaviour
         Time.timeScale = 0f;
         lastInt = i;
         gameObject.SetActive(true);
+        confirmButton.gameObject.SetActive(false);
+
 
          // Disable and hide the PauseButton
         if (pauseButton != null) {
             pauseButton.gameObject.SetActive(false);
+            //confirmButton.gameObject.SetActive(false);
+        }
+        if (confirmButton != null)
+        {
+            confirmButton.gameObject.SetActive(false);
         }
 
         Debug.Log("last int toooo...du du du dummmm" + lastInt.ToString());

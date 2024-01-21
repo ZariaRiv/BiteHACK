@@ -47,12 +47,18 @@ public class GnomeScript : MonoBehaviour
     void Start()
     {
         changeGnomeSprite(gnomeType);
+        //changeGnomeSprite2();
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    public void changeGnomeSprite2(Sprite sprite)
+    {
+        spriteRenderer.sprite = sprite;
     }
 
     public void changeGnomeSprite(GnomeType gnomeType) {

@@ -10,8 +10,8 @@ public class level_1 : MonoBehaviour
     public Canvas buttonCanvas; // Reference to the canvas containing the buttons
     
 
-    private float[] grandmaAwakeTimes = {5.0f, 5.0f};
-    private float[] grandmaSleepTimes = {3.0f, 3.0f};
+    private float[] grandmaAwakeTimes = {5.0f, 5.0f, 5.0f, 5.0f, 5.0f, 5.0f};
+    private float[] grandmaSleepTimes = {2.0f, 2.0f, 2.0f, 2.0f, 2.0f, 2.0f};
 
     private bool grandmaClosesEyesAnimation = false;
     private bool grandmaOpenesEyesAnimation = false;
@@ -59,15 +59,46 @@ public class level_1 : MonoBehaviour
         Debug.Log("grandmaClosesEyes - END");
     }
 
+    private void swap(GameObject g1, GameObject g2) {
+        Vector3 temp = g1.transform.position;
+        g1.transform.position = g2.transform.position;
+        g2.transform.position = temp;
+    }
+
     void grandmaOpenesEyes() {
         Debug.Log("grandmaOpenesEyes - START");
         //Podmianki assetów w casach
-        switch(cycleCounter) {
+        /*switch(cycleCounter) {
             case 1:
                 Debug.Log("111111");
+                GameObject[] allGnomes = GameObject.FindGameObjectsWithTag("GNOM");
 
-                GameObject plant = GameObject.Find("Plant (1)");
-                plant.GetComponent<PlantsScript>().changePlantSpriteToBroken();
+                //GameObject badGnome;
+                foreach(GameObject gnom in allGnomes) {
+                    if(gnom.GetComponent<GnomeScript>().wolf) {
+                        GameObject badGnome = gnom;
+
+                        GameObject[] allPlants = GameObject.FindGameObjectsWithTag("PLANT");
+                        float smallestDistance = float.MaxValue;
+                        GameObject closestPlant = allPlants[0];
+                        foreach(GameObject plant in allPlants) {
+                            float distance = Vector3.Distance(plant.transform.position, badGnome.transform.position);
+                            if(distance < smallestDistance) {
+                                smallestDistance = distance;
+                                closestPlant = plant;
+                            }
+                        }
+
+                        //GameObject plant = GameObject.Find("Plant (1)");
+                        closestPlant.GetComponent<PlantsScript>().changePlantSpriteToBroken();
+                    }
+                }
+
+                foreach(GameObject gnom in allGnomes) {
+                    swap(gnom, allGnomes[Random.Range(0, allGnomes.Length)]);
+                }
+
+                
                 break;
             case 2:
 
@@ -83,6 +114,36 @@ public class level_1 : MonoBehaviour
             default:
                 Debug.Log("ERROR: switch case default value!");
                 break;
+        }*/
+
+        Debug.Log("111111");
+        GameObject[] allGnomes = GameObject.FindGameObjectsWithTag("GNOM");
+
+        //GameObject badGnome;
+        foreach(GameObject gnom in allGnomes) {
+            if(gnom.GetComponent<GnomeScript>().wolf) {
+                GameObject badGnome = gnom;
+
+                GameObject[] allPlants = GameObject.FindGameObjectsWithTag("PLANT");
+                float smallestDistance = float.MaxValue;
+                GameObject closestPlant = allPlants[0];
+                foreach(GameObject plant in allPlants) {
+                    if(plant.GetComponent<PlantsScript>().destroyed == false) {
+                        float distance = Vector3.Distance(plant.transform.position, badGnome.transform.position);
+                        if(distance < smallestDistance) {
+                            smallestDistance = distance;
+                            closestPlant = plant;
+                        }
+                    }
+                }
+
+                //GameObject plant = GameObject.Find("Plant (1)");
+                closestPlant.GetComponent<PlantsScript>().changePlantSpriteToBroken();
+            }
+        }
+
+        foreach(GameObject gnom in allGnomes) {
+            swap(gnom, allGnomes[Random.Range(0, allGnomes.Length)]);
         }
 
         grandmaOpenesEyesAnimation = true;

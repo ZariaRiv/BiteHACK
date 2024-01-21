@@ -28,7 +28,8 @@ public class PlantsScript : MonoBehaviour
     public Sprite b_stone;
     public Sprite bush1;
     public Sprite bush2;
-    public Sprite b_bush;
+    public Sprite b_bush1;
+    public Sprite b_bush2;
     public Sprite tools;
     public Sprite b_tools;
     public Sprite wheelbarrow;
@@ -50,30 +51,41 @@ public class PlantsScript : MonoBehaviour
         
     }
 
+    public bool destroyed = false;
+
     public void changePlantSpriteToBroken() {
+        destroyed = true;
         switch(plantType) {
             case PlantType.tree:
+                Debug.Log("changePlantSpriteToBroken tree");
                 spriteRenderer.sprite = b_tree; 
                 break;
             case PlantType.patch:
+                Debug.Log("changePlantSpriteToBroken patch");
                 spriteRenderer.sprite = b_patch; 
                 break;
             case PlantType.stone1:
+                Debug.Log("changePlantSpriteToBroken stone1");
                 spriteRenderer.sprite = b_stone; 
                 break;
             case PlantType.stone2:
+                Debug.Log("changePlantSpriteToBroken stone2");
                 spriteRenderer.sprite = b_stone; 
                 break;
             case PlantType.bush1:
-                spriteRenderer.sprite = b_bush; 
+                Debug.Log("changePlantSpriteToBroken bush1");
+                spriteRenderer.sprite = b_bush1; 
                 break;
             case PlantType.bush2:
-                spriteRenderer.sprite = b_bush; 
+                Debug.Log("changePlantSpriteToBroken bush2");
+                spriteRenderer.sprite = b_bush2; 
                 break;
             case PlantType.tools:
+                Debug.Log("changePlantSpriteToBroken tools");
                 spriteRenderer.sprite = b_tools; 
                 break;
             case PlantType.wheelbarrow:
+                Debug.Log("changePlantSpriteToBroken wheelbarrow");
                 spriteRenderer.sprite = b_wheelbarrow; 
                 break;
             default:

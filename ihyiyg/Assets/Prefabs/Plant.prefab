@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1258442979104283071}
   m_Layer: 0
   m_Name: Plant
-  m_TagString: Untagged
+  m_TagString: PLANT
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107,7 +107,8 @@ MonoBehaviour:
   b_stone: {fileID: 21300000, guid: fde402b8a240bdc4481d40fd059e6fb1, type: 3}
   bush1: {fileID: 21300000, guid: dc59863610b20ca4bb04277bb31cc4fc, type: 3}
   bush2: {fileID: 21300000, guid: 6c2cb43136d338a4ea689cf43b7b6d5e, type: 3}
-  b_bush: {fileID: 21300000, guid: eea3243d5c04703438fa1e609a2b70dc, type: 3}
+  b_bush1: {fileID: 21300000, guid: eea3243d5c04703438fa1e609a2b70dc, type: 3}
+  b_bush2: {fileID: 21300000, guid: ec1fe47cb3bbc8945857f16ad1d339a2, type: 3}
   tools: {fileID: 21300000, guid: ea1abdd1e5299334881d9b2a24815035, type: 3}
   b_tools: {fileID: 21300000, guid: 9a9107272384de244800b33436e27fae, type: 3}
   wheelbarrow: {fileID: 21300000, guid: 6e7901c9362ab8a4fa9c9ac1be62a728, type: 3}

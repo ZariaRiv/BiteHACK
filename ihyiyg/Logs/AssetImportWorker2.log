@@ -1,0 +1,385 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'pl' Physical Memory: 7734 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/oliwi/Documents/GitHub/BiteHACK/ihyiyg
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51259
+Successfully changed project path to: C:/Users/oliwi/Documents/GitHub/BiteHACK/ihyiyg
+C:/Users/oliwi/Documents/GitHub/BiteHACK/ihyiyg
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3652] Host "[IP] 10.230.115.34 [Port] 0 [Flags] 2 [Guid] 4200335993 [EditorId] 4200335993 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-K93R0A3P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [3652] Host "[IP] 10.230.115.34 [Port] 0 [Flags] 2 [Guid] 4200335993 [EditorId] 4200335993 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-K93R0A3P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 506.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/oliwi/Documents/GitHub/BiteHACK/ihyiyg/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Vega 8 Graphics (ID=0x15dd)
+    Vendor:   ATI
+    VRAM:     3867 MB
+    Driver:   26.20.12036.1
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.020516 seconds.
+- Loaded All Assemblies, in  0.823 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.537 seconds
+Domain Reload Profiling: 1356ms
+	BeginReloadAssembly (296ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (129ms)
+	LoadAllAssembliesAndSetupDomain (308ms)
+		LoadAssemblies (292ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (303ms)
+			TypeCache.Refresh (299ms)
+				TypeCache.ScanAssembly (271ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (538ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (420ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (16ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.518 seconds
+Refreshing native plugins compatible for Editor in 6.29 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.547 seconds
+Domain Reload Profiling: 3059ms
+	BeginReloadAssembly (263ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (1084ms)
+		LoadAssemblies (794ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (446ms)
+			TypeCache.Refresh (389ms)
+				TypeCache.ScanAssembly (340ms)
+			ScanForSourceGeneratedMonoScriptInfo (49ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1547ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1256ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (1041ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 7.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3101 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3564.
+Memory consumption went from 118.2 MB to 118.1 MB.
+Total: 6.353100 ms (FindLiveObjects: 0.413300 ms CreateObjectMapping: 0.132800 ms MarkObjects: 5.121800 ms  DeleteObjects: 0.683500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 114909.164937 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(787eec0e03c21b44e838d904898e23f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(787eec0e03c21b44e838d904898e23f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0c86fb98c2475d5329677af7e9728d') in 0.005276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 32.161537 seconds.
+  path: Assets/Scripts/level_1
+  artifactKey: Guid(28cea9c6dfed59341b4ec31cff9c60a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/level_1 using Guid(28cea9c6dfed59341b4ec31cff9c60a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8293ce60e39696e5b9e842f96c8afdb') in 0.001195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.911519 seconds.
+  path: Assets/Scripts/level_1/level_1.cs
+  artifactKey: Guid(d890bf574fb489c4aa038b2d8e64d1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/level_1/level_1.cs using Guid(d890bf574fb489c4aa038b2d8e64d1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30b0efac1f5ee4c39bcba06e03aafba') in 0.001375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 394.428938 seconds.
+  path: Assets/Prefabs/Gnom.prefab
+  artifactKey: Guid(73ad4e53ccd2e8e4990e8978912ea5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gnom.prefab using Guid(73ad4e53ccd2e8e4990e8978912ea5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603504351131e7a9ce2901f1ab7b7b19') in 0.376126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 38.154280 seconds.
+  path: Assets/Sprites/Gnomes/beachgoerGnome.png
+  artifactKey: Guid(69595d703ca506d4590be0c546e00f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Gnomes/beachgoerGnome.png using Guid(69595d703ca506d4590be0c546e00f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532e911953fab6ef0810adec57f6aff2') in 0.140677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Gnomes/bodybuilderGnomeWithAxe.png
+  artifactKey: Guid(12b99dad41041b74eac4fd4ed68e3eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Gnomes/bodybuilderGnomeWithAxe.png using Guid(12b99dad41041b74eac4fd4ed68e3eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3c02663fe092551e7018cc96bd9feb') in 0.072883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Sprites/Gnomes/bodybuilderGnomeWithPruner.png
+  artifactKey: Guid(4fbc25dd76352a94f8f32231663ff026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Gnomes/bodybuilderGnomeWithPruner.png using Guid(4fbc25dd76352a94f8f32231663ff026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c057f5733edd923bfcd19bc885173675') in 0.061562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Gnomes/shepherdGnomeWithAxeSelected.png
+  artifactKey: Guid(5286ea7a2d77ea9499e70dd75be03141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Gnomes/shepherdGnomeWithAxeSelected.png using Guid(5286ea7a2d77ea9499e70dd75be03141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd73ac0e5b6f92bed7bda0d25a9aba6') in 0.086190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites/Gnomes/shepherdGnomeWithAxe.png
+  artifactKey: Guid(dac4c9f6e9baea64585cabe105c47849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Gnomes/shepherdGnomeWithAxe.png using Guid(dac4c9f6e9baea64585cabe105c47849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e700486ad43259a5931d10910b3bf48') in 0.066549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Gnomes/bodybuilderGnomeSelected.png
+  artifactKey: Guid(82c1306c1fc097b44b0884d807f7cb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Gnomes/bodybuilderGnomeSelected.png using Guid(82c1306c1fc097b44b0884d807f7cb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4309419004d86e9018834078bd01bb') in 0.070383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/Gnomes/shepherdGnomeWithShovelSelected.png
+  artifactKey: Guid(a2532400797e2a04a9303fd46c3b6f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Gnomes/shepherdGnomeWithShovelSelected.png using Guid(a2532400797e2a04a9303fd46c3b6f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a3dcade7fa8440266092dc6e46826a') in 0.082290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Sprites/Gnomes/manGnomeWithPruner.png
+  artifactKey: Guid(e3f29c7e1f662a3428837283158aec57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Gnomes/manGnomeWithPruner.png using Guid(e3f29c7e1f662a3428837283158aec57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a121829f3cac2dd0e623c50a4108f4') in 0.071251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Gnomes/manGnomeWithShovelSelected.png
+  artifactKey: Guid(0c63939cef2a8e241be994929be8e9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Gnomes/manGnomeWithShovelSelected.png using Guid(0c63939cef2a8e241be994929be8e9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa64a650d95eb67763e03fdae238a1a0') in 0.063401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/Gnomes/manGnomeWithAxe.png
+  artifactKey: Guid(25d06e82a9c3d2c4d90453f9ace96209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Gnomes/manGnomeWithAxe.png using Guid(25d06e82a9c3d2c4d90453f9ace96209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bedcab9f6eb1ab91bf03652f22e511f') in 0.084356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Sprites/Gnomes/shepherdGnomeWithPruner.png
+  artifactKey: Guid(fe8658786e2d73e4ba6b754b430367e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Gnomes/shepherdGnomeWithPruner.png using Guid(fe8658786e2d73e4ba6b754b430367e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd34ee1c60f985859ccc8071be6895a9') in 0.068412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Gnomes/manGnomeWithPrunerSelected.png
+  artifactKey: Guid(578a429e7dd1b7541878bf0db29d2a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Gnomes/manGnomeWithPrunerSelected.png using Guid(578a429e7dd1b7541878bf0db29d2a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19381d356d79a4a2c457ce53d7161127') in 0.064942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Gnomes/shepherdGnome.png
+  artifactKey: Guid(4ef2c2ae823c70047a6dcc86a874d958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Gnomes/shepherdGnome.png using Guid(4ef2c2ae823c70047a6dcc86a874d958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73a7bbf4619d49737d2f9589a33d955') in 0.065883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Sprites/Gnomes/girlGnomeWithAxe.png
+  artifactKey: Guid(294d30f5515313f41a177c5361625e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Gnomes/girlGnomeWithAxe.png using Guid(294d30f5515313f41a177c5361625e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dcb67aa76d6bbf5e54e6aa095a8e343') in 0.075099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001811 seconds.
+  path: Assets/Sprites/Gnomes/girlGnome.png
+  artifactKey: Guid(ba1cce5fc2b17634a83a2d5fd25512af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Gnomes/girlGnome.png using Guid(ba1cce5fc2b17634a83a2d5fd25512af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e30782785d88080f4b25bc407e27ea8') in 0.070851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Gnomes/bodybuilderGnomeWithShovel.png
+  artifactKey: Guid(4fbdf20729de4f6479bfa63cb3f1fa4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Gnomes/bodybuilderGnomeWithShovel.png using Guid(4fbdf20729de4f6479bfa63cb3f1fa4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57942288fadc965794d67e2462769e93') in 0.072646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/Gnomes/girlGnomeWithShovel.png
+  artifactKey: Guid(643c6f65c3f2ac840965ccb9a1035ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Gnomes/girlGnomeWithShovel.png using Guid(643c6f65c3f2ac840965ccb9a1035ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55cbb0ea3d031c3d3ea4208d39444dc7') in 0.079927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Sprites/Gnomes/beachgoerGnomeWithShovelSelected.png
+  artifactKey: Guid(0927666fdd75d8045b7b8175df38932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Gnomes/beachgoerGnomeWithShovelSelected.png using Guid(0927666fdd75d8045b7b8175df38932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da044709dd5987f9e5a766f45a68f49') in 0.084805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Gnomes/bodybuilderGnomeWithAxeSelected.png
+  artifactKey: Guid(c9bfa850d09b3c84d84d335fde301c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Gnomes/bodybuilderGnomeWithAxeSelected.png using Guid(c9bfa850d09b3c84d84d335fde301c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92a4a5293452ea842616b7219eccaf7') in 0.085922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Sprites/Gnomes/girlGnomeWithPrunerSelected.png
+  artifactKey: Guid(a9b534a1cbd527248a7cb91e2e247228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Gnomes/girlGnomeWithPrunerSelected.png using Guid(a9b534a1cbd527248a7cb91e2e247228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632d3e9a31bcc178a33b1e72ed0b1a3c') in 0.072241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Sprites/Gnomes/manGnomeWithAxeSelected.png
+  artifactKey: Guid(f3f578720ca11ba4c9341369be010d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Gnomes/manGnomeWithAxeSelected.png using Guid(f3f578720ca11ba4c9341369be010d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9cd19f1d5cc29e6d2da11486469b879') in 0.075578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Operacja We/Wy zosta³a przerwana z powodu zakoñczenia w¹tku lub ¿¹dania aplikacji.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

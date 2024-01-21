@@ -21,10 +21,10 @@ public class DialogUI : MonoBehaviour
         typewritterEffect =GetComponent<TypewritterEffect>();
         CloseDialogueBox();
         Debug.Log("Start");
-        //if (SceneManager.GetActiveScene().buildIndex == 1)
-        //{
-            //ShowDialogueChange(testDialogue);
-        //}
+        if (SceneManager.GetActiveScene().buildIndex == 1)
+        {
+            ShowDialogueChange(testDialogue);
+        }
         ShowDialogueChange(testDialogue); //// to tutaj odkomentuj i ustaw jakies rzeczy potem, ale to potem, na razie troche dziala
         
     
@@ -49,7 +49,8 @@ public class DialogUI : MonoBehaviour
 
         }
         CloseDialogueBox();
-        //SceneManager.LoadScene("Scenes/Main");
+        Debug.Log("Teraz powinno zaladowac scenke");
+        SceneManager.LoadScene("Scenes/MainScene_tutorial");///?"Scenes/Main"
     }
 
     public void ShowDialogue(DialogObject dialogueObject)
@@ -69,7 +70,7 @@ public class DialogUI : MonoBehaviour
 
         }
         CloseDialogueBox();
-        //SceneManager.LoadScene("Scenes/TheGame");
+        //SceneManager.LoadScene("Scenes/MainScene_tutorial");
     }
 
     private void CloseDialogueBox(){

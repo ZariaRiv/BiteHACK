@@ -1,4 +1,4 @@
-# BiteHACK
+# BiteHACK - Gnomery Garden by Antagonizers
 Repository for game Gnomery Garden made during BiteHack 2024, for category GameJam. 
 Game was made by team Antagonizers:
 Katarzyna Klęczek

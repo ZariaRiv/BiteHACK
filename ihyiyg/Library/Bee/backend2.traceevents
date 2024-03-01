@@ -1,267 +1,366 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1705833124760464, "dur":18482, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1705833124778953, "dur":92, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1705833124779092, "dur":477, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1705833124779737, "dur":98, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/level2.resS" }}
-,{ "pid":12345, "tid":0, "ts":1705833124779942, "dur":82, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/resources.assets" }}
-,{ "pid":12345, "tid":0, "ts":1705833124780461, "dur":101, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/sharedassets6.assets.resS" }}
-,{ "pid":12345, "tid":0, "ts":1705833124780806, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1705833124780957, "dur":78, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1705833124781421, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1705833124781863, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1705833124782112, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1705833124782280, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1705833124782505, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":0, "ts":1705833124779593, "dur":4069, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1705833124783664, "dur":151814, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1705833124935479, "dur":344, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1705833124935924, "dur":1058, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1705833124780672, "dur":3052, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1705833124783726, "dur":287, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1705833124784013, "dur":2932, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1705833124786946, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/gierka/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1705833124825402, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1705833124827078, "dur":14712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1705833124841850, "dur":93650, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1705833124780587, "dur":3120, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1705833124783710, "dur":929, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1705833124784639, "dur":2222, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1705833124787455, "dur":1426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/app.info" }}
-,{ "pid":12345, "tid":2, "ts":1705833124789111, "dur":984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1705833124790137, "dur":696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1705833124790977, "dur":856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":2, "ts":1705833124791886, "dur":808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg.exe" }}
-,{ "pid":12345, "tid":2, "ts":1705833124793012, "dur":3845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":2, "ts":1705833124796949, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":2, "ts":1705833124798087, "dur":976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1705833124799091, "dur":648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":2, "ts":1705833124799793, "dur":923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":2, "ts":1705833124800757, "dur":895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1705833124801716, "dur":1163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":2, "ts":1705833124802958, "dur":1164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1705833124804142, "dur":168, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Kasia\\Documents\\GitHub\\BiteHACK\\ihyiyg\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1705833124804141, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1705833124804319, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1705833124805280, "dur":1246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":2, "ts":1705833124806553, "dur":1073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1705833124807683, "dur":1164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1705833124808919, "dur":1191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1705833124810144, "dur":1601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1705833124811806, "dur":1833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1705833124813693, "dur":2350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1705833124816094, "dur":2346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1705833124818497, "dur":2953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1705833124821505, "dur":2138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1705833124823696, "dur":1663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/sharedassets6.assets" }}
-,{ "pid":12345, "tid":2, "ts":1705833124825430, "dur":14409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1705833124839886, "dur":95609, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1705833124780237, "dur":3439, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1705833124783683, "dur":838, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1705833124784521, "dur":2390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1705833124786921, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1705833124786912, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/gierka/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1705833124794185, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1705833124795265, "dur":1712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":3, "ts":1705833124797050, "dur":1102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":3, "ts":1705833124798191, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":3, "ts":1705833124799308, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":3, "ts":1705833124800342, "dur":1647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":3, "ts":1705833124802072, "dur":1184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":3, "ts":1705833124803316, "dur":233, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Kasia\\Documents\\GitHub\\BiteHACK\\ihyiyg\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":3, "ts":1705833124803315, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":3, "ts":1705833124803558, "dur":714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":3, "ts":1705833124804288, "dur":219, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Kasia\\Documents\\GitHub\\BiteHACK\\ihyiyg\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":3, "ts":1705833124804288, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":3, "ts":1705833124804523, "dur":1026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":3, "ts":1705833124805572, "dur":1164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1705833124806765, "dur":1062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1705833124807887, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1705833124809118, "dur":1396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1705833124810576, "dur":1796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1705833124812425, "dur":2895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1705833124815385, "dur":2691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1705833124818130, "dur":2508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1705833124820721, "dur":2761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1705833124823549, "dur":2335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/sharedassets6.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1705833124825959, "dur":38883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1705833124864867, "dur":70631, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1705833124780779, "dur":2963, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1705833124783743, "dur":3237, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1705833124786980, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/gierka/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1705833124824425, "dur":2437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1705833124826985, "dur":3174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":4, "ts":1705833124830217, "dur":3037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/level3.resS" }}
-,{ "pid":12345, "tid":4, "ts":1705833124833363, "dur":3498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":4, "ts":1705833124836886, "dur":98585, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1705833124780404, "dur":3288, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1705833124783694, "dur":909, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1705833124784603, "dur":2268, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1705833124786905, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":5, "ts":1705833124786877, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/gierka/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":5, "ts":1705833124810380, "dur":1512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":5, "ts":1705833124811946, "dur":2614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1705833124814627, "dur":2027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1705833124816799, "dur":2040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1705833124818898, "dur":2385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1705833124821322, "dur":2424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1705833124823816, "dur":15388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/sharedassets5.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1705833124839289, "dur":96184, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1705833124780366, "dur":3320, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1705833124783689, "dur":917, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1705833124784606, "dur":2286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1705833124809954, "dur":1074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":6, "ts":1705833124811087, "dur":1733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1705833124812896, "dur":1918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1705833124814879, "dur":2422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1705833124817339, "dur":2088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1705833124819498, "dur":2576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1705833124822170, "dur":2665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1705833124824911, "dur":1751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":6, "ts":1705833124826738, "dur":2441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":6, "ts":1705833124829241, "dur":2620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/level5" }}
-,{ "pid":12345, "tid":6, "ts":1705833124831916, "dur":4007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/level1" }}
-,{ "pid":12345, "tid":6, "ts":1705833124835979, "dur":99487, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1705833124780530, "dur":3167, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1705833124783699, "dur":903, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1705833124784603, "dur":2292, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1705833124786896, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/gierka/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":7, "ts":1705833124811275, "dur":1275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":7, "ts":1705833124812640, "dur":2127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1705833124814820, "dur":2689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1705833124817576, "dur":2571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1705833124820237, "dur":2596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1705833124822890, "dur":2418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1705833124825357, "dur":2211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":7, "ts":1705833124827762, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":7, "ts":1705833124829240, "dur":2624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/level6" }}
-,{ "pid":12345, "tid":7, "ts":1705833124831917, "dur":3487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/level0" }}
-,{ "pid":12345, "tid":7, "ts":1705833124835450, "dur":100019, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1705833124780570, "dur":3132, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1705833124783704, "dur":737, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1705833124784441, "dur":2461, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1705833124786909, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/gierka/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1705833124826641, "dur":896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1705833124827583, "dur":2969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":8, "ts":1705833124830602, "dur":3031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/level3" }}
-,{ "pid":12345, "tid":8, "ts":1705833124833674, "dur":2690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":8, "ts":1705833124836402, "dur":99074, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1705833124780612, "dur":3100, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1705833124783715, "dur":565, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1705833124784280, "dur":2617, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1705833124786911, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":9, "ts":1705833124786898, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/gierka/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":9, "ts":1705833124809692, "dur":922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":9, "ts":1705833124810651, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1705833124811647, "dur":1528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1705833124813252, "dur":2393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1705833124815705, "dur":2377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1705833124818141, "dur":2154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1705833124820320, "dur":2247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1705833124822622, "dur":3453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1705833124826123, "dur":2149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":9, "ts":1705833124828321, "dur":3180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":9, "ts":1705833124831567, "dur":4113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/level2" }}
-,{ "pid":12345, "tid":9, "ts":1705833124835710, "dur":99757, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1705833124780089, "dur":3581, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1705833124783673, "dur":3187, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1705833124824041, "dur":711, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":10, "ts":1705833124824757, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":10, "ts":1705833124824920, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1705833124825190, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerc6f36ed9-inputdata.json" }}
-,{ "pid":12345, "tid":10, "ts":1705833124824756, "dur":650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":10, "ts":1705833124825789, "dur":114, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1705833124826193, "dur":106335, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":10, "ts":1705833124934811, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":10, "ts":1705833124934810, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/boot.config" }}
-,{ "pid":12345, "tid":10, "ts":1705833124934890, "dur":553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/boot.config" }}
-,{ "pid":12345, "tid":11, "ts":1705833124780645, "dur":3073, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1705833124783720, "dur":653, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1705833124784373, "dur":2509, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1705833124786915, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":11, "ts":1705833124786888, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/gierka/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":11, "ts":1705833124801822, "dur":782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":11, "ts":1705833124802670, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":11, "ts":1705833124803608, "dur":237, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Kasia\\Documents\\GitHub\\BiteHACK\\ihyiyg\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":11, "ts":1705833124803607, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":11, "ts":1705833124803852, "dur":1275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":11, "ts":1705833124805208, "dur":1120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":11, "ts":1705833124806377, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1705833124807674, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1705833124808662, "dur":877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1705833124809600, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1705833124811037, "dur":1923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1705833124812989, "dur":2098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1705833124815124, "dur":1609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1705833124816772, "dur":1574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1705833124818380, "dur":2262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1705833124820670, "dur":2415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1705833124823172, "dur":23553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":11, "ts":1705833124846770, "dur":88709, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1705833124780754, "dur":2982, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1705833124783737, "dur":3232, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1705833124788285, "dur":654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":12, "ts":1705833124789123, "dur":622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":12, "ts":1705833124789806, "dur":778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":12, "ts":1705833124790746, "dur":401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":12, "ts":1705833124791210, "dur":2345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":12, "ts":1705833124793667, "dur":1863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":12, "ts":1705833124795565, "dur":1968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":12, "ts":1705833124797583, "dur":754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":12, "ts":1705833124798415, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":12, "ts":1705833124799463, "dur":452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":12, "ts":1705833124799942, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":12, "ts":1705833124801008, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":12, "ts":1705833124802452, "dur":931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":12, "ts":1705833124803401, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Kasia\\Documents\\GitHub\\BiteHACK\\ihyiyg\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":12, "ts":1705833124803401, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":12, "ts":1705833124803505, "dur":1021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":12, "ts":1705833124804564, "dur":174, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Kasia\\Documents\\GitHub\\BiteHACK\\ihyiyg\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":12, "ts":1705833124804563, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":12, "ts":1705833124804758, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":12, "ts":1705833124805749, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1705833124807104, "dur":687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1705833124807853, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1705833124809181, "dur":1381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1705833124810592, "dur":1171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1705833124811795, "dur":1482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1705833124813314, "dur":2235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1705833124815617, "dur":2083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1705833124817742, "dur":1863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1705833124819630, "dur":1985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1705833124821668, "dur":2916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1705833124824999, "dur":14219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/sharedassets4.assets.resS" }}
-,{ "pid":12345, "tid":12, "ts":1705833124839285, "dur":96185, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1705833124780721, "dur":3009, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1705833124783731, "dur":3269, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1705833124826324, "dur":1163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":13, "ts":1705833124827537, "dur":3847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":13, "ts":1705833124831477, "dur":4441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/level2.resS" }}
-,{ "pid":12345, "tid":13, "ts":1705833124835950, "dur":99525, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1705833124780804, "dur":2945, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1705833124783750, "dur":3222, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1705833124786979, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/gierka/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":14, "ts":1705833124824925, "dur":1456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":14, "ts":1705833124826427, "dur":13275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":14, "ts":1705833124839747, "dur":95749, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1705833124780830, "dur":3023, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1705833124783853, "dur":3118, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1705833124786971, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/gierka/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":15, "ts":1705833124826212, "dur":1073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":15, "ts":1705833124827327, "dur":2693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":15, "ts":1705833124830096, "dur":2869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/level4" }}
-,{ "pid":12345, "tid":15, "ts":1705833124833063, "dur":10605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":15, "ts":1705833124843722, "dur":91779, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1705833124780924, "dur":2991, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1705833124783915, "dur":3051, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1705833124811383, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":16, "ts":1705833124812861, "dur":2284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1705833124815199, "dur":2278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1705833124817567, "dur":2401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1705833124820035, "dur":2402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1705833124822496, "dur":3302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1705833124825904, "dur":2471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":16, "ts":1705833124828443, "dur":3048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/resources.assets" }}
-,{ "pid":12345, "tid":16, "ts":1705833124831573, "dur":3303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/gierka/ihyiyg_Data/level1.resS" }}
-,{ "pid":12345, "tid":16, "ts":1705833124834924, "dur":100558, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1705833124938876, "dur":699, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1709307619962632, "dur":19671, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709307619982307, "dur":67, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709307619982396, "dur":280, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709307619982817, "dur":104, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/level6" }}
+,{ "pid":12345, "tid":0, "ts":1709307619983137, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1709307619983356, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709307619983478, "dur":84, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709307619983980, "dur":454, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709307619984499, "dur":110, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709307619985072, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":0, "ts":1709307619982685, "dur":2957, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709307619985644, "dur":1010062, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709307620995706, "dur":421, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709307620996273, "dur":1444, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1709307619984433, "dur":1561, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709307619985995, "dur":2893, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709307619988900, "dur":9748, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":1, "ts":1709307619988889, "dur":9761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1709307619999114, "dur":1308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1709307620000460, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1709307620001137, "dur":4146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1709307620005330, "dur":318, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709307620005329, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709307620005667, "dur":1537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709307620007248, "dur":409, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709307620007246, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709307620007671, "dur":4458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709307620012168, "dur":165, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709307620012167, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709307620012346, "dur":2466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709307620014904, "dur":3725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709307620018740, "dur":3072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709307620022068, "dur":3559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709307620025731, "dur":3650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709307620029464, "dur":3165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709307620032676, "dur":4069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709307620036817, "dur":1887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":1, "ts":1709307620038760, "dur":6208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1709307620045027, "dur":3529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1709307620048600, "dur":947107, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709307619984111, "dur":1761, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709307619985874, "dur":825, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709307619986700, "dur":2166, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709307619988881, "dur":11311, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":2, "ts":1709307619988867, "dur":11327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1709307620000301, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1709307620001317, "dur":4523, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709307620001316, "dur":4526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709307620005946, "dur":4195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709307620010191, "dur":193, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709307620010189, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709307620010401, "dur":1294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709307620011732, "dur":289, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709307620011731, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709307620012035, "dur":1877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709307620013965, "dur":433, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Kasia\\Documents\\GitHub\\BiteHACK\\ihyiyg\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709307620013964, "dur":436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709307620014438, "dur":3662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709307620018173, "dur":2477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709307620020692, "dur":4080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709307620024832, "dur":3674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709307620028601, "dur":3592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709307620032283, "dur":3978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709307620036332, "dur":1788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":2, "ts":1709307620038176, "dur":1903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":2, "ts":1709307620040211, "dur":3545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1709307620043817, "dur":2118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1709307620045997, "dur":3825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1709307620049859, "dur":945829, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709307619983412, "dur":2274, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709307619985695, "dur":710, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709307619986406, "dur":2468, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709307619988875, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1709307620007223, "dur":1299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1709307620008572, "dur":219, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709307620008571, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709307620008868, "dur":2203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709307620011118, "dur":1026, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709307620011117, "dur":1028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709307620012158, "dur":2496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709307620014701, "dur":104, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Kasia\\Documents\\GitHub\\BiteHACK\\ihyiyg\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709307620014698, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709307620014819, "dur":3269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709307620018207, "dur":2709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709307620020986, "dur":3494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709307620024541, "dur":3136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709307620027879, "dur":3866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709307620031789, "dur":4127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709307620035979, "dur":70494, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709307620035976, "dur":70504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709307620106536, "dur":15741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709307620122306, "dur":873391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709307619983795, "dur":1989, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709307619985786, "dur":903, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709307619986690, "dur":2160, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709307619988871, "dur":38464, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1709307619988855, "dur":38484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1709307620027924, "dur":1407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1709307620029382, "dur":3218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709307620032661, "dur":3869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709307620036590, "dur":3481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1709307620040210, "dur":3642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1709307620043955, "dur":3663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/level6" }}
+,{ "pid":12345, "tid":4, "ts":1709307620047701, "dur":2430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1709307620050179, "dur":945508, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709307619983619, "dur":2122, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709307619985744, "dur":975, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709307619986719, "dur":2133, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709307619988854, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1709307620007195, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1709307620008990, "dur":174, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709307620008989, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709307620009186, "dur":2752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709307620011977, "dur":288, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709307620011976, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709307620012278, "dur":2368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709307620014691, "dur":187, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Kasia\\Documents\\GitHub\\BiteHACK\\ihyiyg\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709307620014690, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709307620014901, "dur":3719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709307620021734, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709307620018729, "dur":3093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709307620021910, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709307620022071, "dur":3733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709307620025871, "dur":3975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709307620029918, "dur":3282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709307620033268, "dur":4314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709307620037651, "dur":4453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1709307620042235, "dur":2715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1709307620045017, "dur":3403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/level3.resS" }}
+,{ "pid":12345, "tid":5, "ts":1709307620048468, "dur":947239, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709307619983265, "dur":2418, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709307619985684, "dur":3161, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709307620009766, "dur":1793, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":6, "ts":1709307620011797, "dur":701, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1709307620012510, "dur":11134, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1709307620023648, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1709307620023851, "dur":153, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709307620024215, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player69289b34-inputdata.json" }}
+,{ "pid":12345, "tid":6, "ts":1709307620024349, "dur":66790, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.BuildTools.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709307620091142, "dur":213, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709307620091357, "dur":125925, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.CSharpSupport.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709307620217284, "dur":110161, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.DotNet.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709307620327447, "dur":118, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.NativeProgramSupport.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709307620327566, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Stevedore.Program.exe" }}
+,{ "pid":12345, "tid":6, "ts":1709307620327678, "dur":40981, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.GNU.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709307620368662, "dur":24778, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.LLVM.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709307620393442, "dur":68420, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.VisualStudio.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709307620461864, "dur":51718, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.Xcode.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709307620513584, "dur":112, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Tools.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709307620513697, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.TundraBackend.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709307620513862, "dur":1023, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeLocalCacheTool.exe" }}
+,{ "pid":12345, "tid":6, "ts":1709307620514887, "dur":2677, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\Tools\\BuildPipeline\\Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709307620517565, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\Tools\\BuildPipeline\\NiceIO.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709307620517682, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\Tools\\BuildPipeline\\PlayerBuildProgramLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709307620517761, "dur":14857, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\Tools\\BuildPipeline\\ScriptCompilationBuildProgram.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709307620532620, "dur":48384, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\Tools\\BuildPipeline\\ScriptCompilationBuildProgram.exe" }}
+,{ "pid":12345, "tid":6, "ts":1709307620581006, "dur":74781, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\Tools\\BuildPipeline\\SharpYaml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709307620655789, "dur":22818, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Api.Attributes.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709307620678609, "dur":52687, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709307620731297, "dur":41898, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709307620773197, "dur":22381, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709307620795580, "dur":30483, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709307620826065, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Api.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709307620826137, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Bee.BuildLogic.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709307620826273, "dur":56422, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Options.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709307620011562, "dur":871136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1709307620883410, "dur":109262, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1709307620994872, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1709307620994871, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1709307620994948, "dur":714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1709307619984039, "dur":1826, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709307619985868, "dur":668, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709307619986537, "dur":2333, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709307619988871, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1709307620006415, "dur":2364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1709307620008819, "dur":217, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709307620008818, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709307620009051, "dur":2498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709307620011593, "dur":189, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709307620011592, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709307620011795, "dur":3268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709307620015129, "dur":3633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709307620018826, "dur":3515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709307620022405, "dur":3504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709307620025973, "dur":4165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709307620030216, "dur":3378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709307620034048, "dur":4857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709307620038997, "dur":4281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1709307620043500, "dur":1723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1709307620045287, "dur":3976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/level2.resS" }}
+,{ "pid":12345, "tid":7, "ts":1709307620049304, "dur":946396, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709307619984566, "dur":1461, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709307619986027, "dur":2968, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709307619989001, "dur":9775, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1709307619988995, "dur":9784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1709307619999142, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1709307620000171, "dur":36395, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709307620000170, "dur":36399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709307620036656, "dur":9630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709307620046499, "dur":5414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1709307620051968, "dur":943731, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709307619984679, "dur":1355, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709307619986034, "dur":3019, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709307619989053, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1709307620008166, "dur":4691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1709307620012877, "dur":1083, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Kasia\\Documents\\GitHub\\BiteHACK\\ihyiyg\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709307620012877, "dur":1182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709307620014074, "dur":3302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709307620017433, "dur":2738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709307620020215, "dur":3309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709307620023575, "dur":3025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709307620026684, "dur":3829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709307620030568, "dur":3274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709307620034452, "dur":4437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709307620038934, "dur":4652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1709307620043644, "dur":2088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1709307620045898, "dur":3779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/level2" }}
+,{ "pid":12345, "tid":9, "ts":1709307620049702, "dur":946002, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709307619983551, "dur":2184, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709307619985738, "dur":983, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709307619986721, "dur":2126, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709307619988862, "dur":3698, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1709307619988854, "dur":3710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1709307619992596, "dur":1347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1709307619993986, "dur":7573, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1709307619993984, "dur":7577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1709307620001578, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1709307620002714, "dur":246, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709307620002713, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709307620003570, "dur":1706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709307620005323, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709307620005321, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709307620005494, "dur":1808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709307620007322, "dur":667, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709307620007322, "dur":668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709307620008003, "dur":2778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709307620010820, "dur":1432, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709307620010818, "dur":1435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709307620012261, "dur":2683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709307620014993, "dur":5158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709307620020194, "dur":4116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709307620024357, "dur":2912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709307620027310, "dur":3939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709307620031295, "dur":5058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709307620036400, "dur":1592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":10, "ts":1709307620038085, "dur":10060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1709307620048404, "dur":5880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1709307620054336, "dur":941397, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1709307619983739, "dur":2039, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1709307619985781, "dur":909, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1709307619986691, "dur":2177, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1709307619988869, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1709307619990288, "dur":3083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1709307619993465, "dur":7808, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":11, "ts":1709307619993463, "dur":7812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1709307620001291, "dur":1014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1709307620002370, "dur":12510, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1709307620002370, "dur":12512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1709307620014912, "dur":4998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1709307620020003, "dur":3851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1709307620023975, "dur":3117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1709307620027133, "dur":4001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1709307620031219, "dur":4121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1709307620035417, "dur":3743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1709307620039558, "dur":61, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1709307620039625, "dur":19973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1709307620059683, "dur":936047, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709307619983935, "dur":1889, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709307619985827, "dur":713, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709307619986540, "dur":2317, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709307619988862, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1709307619990034, "dur":3717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1709307619993773, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1709307619994169, "dur":1188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1709307619995379, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1709307619995478, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1709307619996490, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1709307619996739, "dur":1620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1709307619998386, "dur":2857, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709307619998384, "dur":2861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709307620001408, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709307620002297, "dur":2547, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709307620002296, "dur":2554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709307620005015, "dur":2290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709307620007331, "dur":271, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709307620007331, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709307620007613, "dur":2730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709307620010367, "dur":381, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709307620010366, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709307620010758, "dur":1750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709307620012528, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Kasia\\Documents\\GitHub\\BiteHACK\\ihyiyg\\Library\\PackageCache\\com.unity.visualscripting@1.8.0\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709307620012527, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709307620012676, "dur":2306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709307620015035, "dur":3943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709307620019037, "dur":3744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709307620022849, "dur":3178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709307620026068, "dur":3703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709307620029813, "dur":2920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709307620032767, "dur":4529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709307620037707, "dur":10289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":12, "ts":1709307620048048, "dur":2387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1709307620050475, "dur":945224, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1709307619984162, "dur":1744, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1709307619985909, "dur":281, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1709307619986190, "dur":2679, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1709307619988883, "dur":10307, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1709307619988870, "dur":10321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1709307619999315, "dur":873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1709307620000208, "dur":63160, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":13, "ts":1709307620000207, "dur":63165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg.exe" }}
+,{ "pid":12345, "tid":13, "ts":1709307620063404, "dur":3065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg.exe" }}
+,{ "pid":12345, "tid":13, "ts":1709307620066510, "dur":929216, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1709307619984261, "dur":1719, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1709307619985980, "dur":2866, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1709307619988860, "dur":428, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1709307620009819, "dur":2926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/app.info" }}
+,{ "pid":12345, "tid":14, "ts":1709307620012748, "dur":167, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Kasia\\Documents\\GitHub\\BiteHACK\\ihyiyg\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":14, "ts":1709307620012747, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":14, "ts":1709307620012922, "dur":2183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":14, "ts":1709307620015152, "dur":4045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1709307620019242, "dur":3822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1709307620023120, "dur":3042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1709307620026204, "dur":3752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1709307620030001, "dur":3328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1709307620033399, "dur":5100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1709307620038566, "dur":5376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":14, "ts":1709307620044220, "dur":4633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/level5" }}
+,{ "pid":12345, "tid":14, "ts":1709307620048882, "dur":946808, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1709307619984505, "dur":1495, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1709307619986000, "dur":2944, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1709307619988944, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1709307620006058, "dur":4836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1709307620010922, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.7f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1709307620010921, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1709307620011023, "dur":2370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1709307620013440, "dur":416, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Kasia\\Documents\\GitHub\\BiteHACK\\ihyiyg\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":15, "ts":1709307620013438, "dur":420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":15, "ts":1709307620013879, "dur":2650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":15, "ts":1709307620016621, "dur":3216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1709307620019884, "dur":3223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1709307620023180, "dur":3893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1709307620027115, "dur":4016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1709307620031199, "dur":5031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1709307620036284, "dur":2027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1709307620038389, "dur":6117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":15, "ts":1709307620044571, "dur":3266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/level4" }}
+,{ "pid":12345, "tid":15, "ts":1709307620047895, "dur":5954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1709307620053912, "dur":941816, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1709307619984367, "dur":1621, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1709307619985989, "dur":3040, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1709307619989030, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1709307620008374, "dur":4166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1709307620012612, "dur":452, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Kasia\\Documents\\GitHub\\BiteHACK\\ihyiyg\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":16, "ts":1709307620012611, "dur":454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":16, "ts":1709307620013081, "dur":3257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":16, "ts":1709307620016418, "dur":3173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1709307620019663, "dur":3263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1709307620022995, "dur":3327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1709307620026381, "dur":4174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1709307620030641, "dur":3772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1709307620034471, "dur":3943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1709307620038474, "dur":46681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kasia/Desktop/GnomeryGarden/ihyiyg_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1709307620085188, "dur":910541, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709307620999583, "dur":927, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
